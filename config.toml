@@ -1,3 +1,49 @@
-baseURL = "http://example.org/"
+baseURL = "https://nu11p01n73R.github.io"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Johny James"
+theme = "minimal"
+
+[params]
+    author = "Johny James"
+    description = "Senior Software Engineer at CouponDunia<br>Trying to build the next big thing<br>Stuck in cli<br>Python Go Awk etc"
+    accent = "red"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "https://segmentation-fault.herokuapp.com/"
+    name = "Blog"
+    weight = 2
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "https://github.com/nu11p01n73R/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/nu11p01n73R/"
+    name = "twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/johnyjames/"
+    name = "linkedin"
+    weight = 4
+
+[[menu.icon]]
+    url = "https://stackoverflow.com/users/3150943/nu11p01n73r"
+    name = "stack-overflow"
+    weight = 5
