@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Johny James</title>
+    <link>https://nu11p01n73R.github.io/</link>
+    <description>Recent content on Johny James</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 24 Aug 2017 12:02:01 +0530</lastBuildDate>
+    
+	<atom:link href="https://nu11p01n73R.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://nu11p01n73R.github.io/about/</link>
+      <pubDate>Thu, 24 Aug 2017 12:02:01 +0530</pubDate>
+      
+      <guid>https://nu11p01n73R.github.io/about/</guid>
+      <description>My name is Johny James. I am a software engineer searching for next moon shot. Interested in algorithms, linux, cli and many more.
+Follow me on twitter to get tech retweets. DMs are open.
+I work on some hobby projects duing my free time, which are hosted in github.
+I used to spend a lot of time on stack overflow answering on tags like regex python awk etc. Work these days prevent me from spending much time on the site.</description>
+    </item>
+    
+  </channel>
+</rss>
