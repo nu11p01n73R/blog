@@ -19,6 +19,7 @@ I work on some hobby projects duing my free time, which are hosted in [**github*
 
 I used to spend a lot of time on [**stack overflow**](https://stackoverflow.com/users/3150943) answering on tags like regex python awk etc. Work these days prevent me from spending much time on the site.
 
+There are some tech articles on my old [**blog**](https://stackoverflow.com/users/3150943). Planing to make this domain as my main bloging platform.
 
-I mostly work on MacOS and ArchLinux.
+I mostly work on MacOS, ArchLinux and vim inside tmux.
 
