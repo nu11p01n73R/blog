@@ -15,7 +15,7 @@ title = "Johny James"
 theme = "hugo-goa"
 
 ## Hugo Built-in Features
-googleAnalytics = "XYZ"
+googleAnalytics = "UA-105269444-1"
 enableRobotsTXT = true
 
 ## Site Settings
