@@ -1,49 +1,56 @@
-baseURL = "https://nu11p01n73R.github.io"
-languageCode = "en-us"
+## Basic Configuration
+
+baseurl = "https://nu11p01n73R.github.io/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Johny James"
 title = "Johny James"
-theme = "minimal"
 
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
 [params]
-    author = "Johny James"
-    description = "Senior Software Engineer at CouponDunia<br>Trying to build the next big thing<br>Stuck in cli<br>Python Go Awk etc"
-    accent = "red"
-    showBorder = true
-    backgroundColor = "white"
-    font = "Raleway" # should match the name on Google Fonts!
-    highlight = true
-    highlightStyle = "solarized-dark"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+author = "Johny James"
+intro = "Stuck In CLI"
+description = "Senior Software Engineer @CouponDunia<br/>Trying to build the next big thing"
+authorimage = "arch_logo.png"
+dateformat = "Jan 2, 2006"
 
-[[menu.main]]
-    url = "/"
-    name = "Home"
-    weight = 1
+## Site Meta Settings
+[params.meta]
+description = "Johny James Personal Blog"
+keywords = "blog,programing,python,go,software,engineering"
 
+## Social Accounts
+[params.social]
+github = "nu11p01n73R"
+linkedin = "johnyjames"
+twitter = "nu11p01n73R"
+stackoverflow = "3150943/nu11p01n73r"
+
+## Extras
+[params.extra]
+copyright = "© 2017. Johny James"
+poweredby = true
+hightlightjs = true
+
+## Main Menu
 [[menu.main]]
-    url = "https://segmentation-fault.herokuapp.com/"
     name = "Blog"
-    weight = 2
-
-# Social icons to be shown on the right-hand side of the navigation bar
-# The "name" field should match the name of the icon to be used
-# The list of available icons can be found at http://fontawesome.io/icons/
-
-[[menu.icon]]
-    url = "https://github.com/nu11p01n73R/"
-    name = "github"
-    weight = 2
-
-[[menu.icon]]
-    url = "https://twitter.com/nu11p01n73R/"
-    name = "twitter"
-    weight = 3
-
-[[menu.icon]]
-    url = "https://www.linkedin.com/in/johnyjames/"
-    name = "linkedin"
-    weight = 4
-
-[[menu.icon]]
-    url = "https://stackoverflow.com/users/3150943/nu11p01n73r"
-    name = "stack-overflow"
-    weight = 5
+    weight = 100
+    url = "https://segmentation-fault.herokuapp.com"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
