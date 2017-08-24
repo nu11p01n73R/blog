@@ -8,5 +8,6 @@ git ci -m "$msg"
 git push origin master
 
 cd ..
+echo
 echo "$msg Done!!"
 
