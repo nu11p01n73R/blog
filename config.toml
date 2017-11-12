@@ -50,7 +50,11 @@ hightlightjs = true
     weight = 100
     url = "https://segmentation-fault.herokuapp.com"
 [[menu.main]]
+    name = "posts"
+    weight = 200
+    url = "/posts/"
+[[menu.main]]
     name = "about"
     identifier = "about"
-    weight = 200
+    weight = 300
     url = "/about/"
