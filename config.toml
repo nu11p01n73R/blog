@@ -22,7 +22,7 @@ enableRobotsTXT = true
 [params]
 author = "Johny James"
 intro = "Stuck In CLI"
-description = "Senior Software Engineer @CouponDunia<br/>Trying to build the next big thing"
+description = "Senior Software Engineer [@Myntra](https://www.myntra.com)<br/>Trying to build the next big thing"
 authorimage = "arch_logo.png"
 dateformat = "Jan 2, 2006"
 
