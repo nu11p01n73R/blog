@@ -1,0 +1,30 @@
+baseurl: "https://nu11p01n73R.github.io/"
+theme: "PaperMod"
+contentDir: "content"
+
+disableKinds:
+  - taxonomy
+  - term
+
+menu:
+  main:
+    - identifier: categories
+      name: Resume
+      url: /pdf/johny.pdf
+      weight: 10
+
+params:
+    profileMode:
+        enabled: true
+        title: "Johny James"
+        subtitle: "Technical Lead @ [Myntra](https://www.myntra.com)"
+        imageUrl: "img/profile.png"
+    socialIcons:
+      - name: linkedin
+        url: "https://www.linkedin.com/in/johnyjames"
+      - name: stackoverflow
+        url: "http://stackoverflow.com/users/3150943/nu11p01n73r"
+      - name: github
+        url: "https://github.com/nu11p01n73R"
+      - name: twitter
+        url: "https://github.com/nu11p01n73R"
