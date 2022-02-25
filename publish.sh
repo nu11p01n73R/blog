@@ -1,11 +1,10 @@
-#!/usr/local/bin/bash
+#!/bin/zsh
 
 cd public
 
 git add .
 msg="Release: "$(date)
-git ci -m "$msg"
-git push origin master
+git commit -m "$msg" && git push origin master
 
 cd ..
 echo
